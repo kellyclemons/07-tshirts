@@ -11,6 +11,16 @@ $c-red: #ff1900;
 $c-green: #00a42e;
 $c-greylink: #888;
 $c-black: #000;
+$c-pink: #ff008a;
+$c-blue: #001aff;
+$c-darkblue: #2c5c9c;
+$c-greenblue: #00614f;
+$c-lightgreen: #88ffb8;
+$c-softgrey: #f6f6f6;
+$c-yellow: #ffed00;
+$c-greyblue: #cdd5ff;
+$c-aqua: #00ffc9;
+$m-whitespace: #fff;
 
 body {
   margin: 0;
@@ -25,4 +35,75 @@ ul {
 img {
   align-self: center;
   max-width: 100%;
+
 }
+
+// T-SHIRT CARD
+
+// whole page
+.container {
+  max-width: 65rem;
+  margin: auto;
+}
+
+.section {
+  padding: 1rem;
+}
+
+// also whole page but grid
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  // border-radius: 0.5rem;
+  overflow: auto;
+}
+
+// 1 tshirt grid item
+.grid__item {
+
+  // background: $c-greenblue;
+  margin: 1rem;
+  flex-basis: calc(100% / 3 - 2rem);
+
+}
+
+// shop card whole item 1/6
+.shop-card {
+  border: 0.3rem solid $c-darkblue;
+    padding: 0.5rem;
+  }
+
+// image of t-shirt
+.tshirt-pic {
+  background: $c-greenblue;
+}
+
+// name of tee and description
+.card-info {
+  text-align: center;
+    color: $c-greenblue;
+}
+
+// name of tee only
+.card-title {
+  margin-bottom: 0;
+}
+
+// description of tee only
+.card-description {
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+// // all of the sizes and various options
+// .card-options {}
+//
+// // all of the buttons (same as above)
+// .button-bar {}
+//
+// .button-bar__button {}
+//
+// .fa fa-refresh {}
+//
+// .grid__item {}
