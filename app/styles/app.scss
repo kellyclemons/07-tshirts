@@ -5,12 +5,24 @@
 // @import 'font-awesome';
 @import 'box-sizing';
 
+$c-primary: #0047ff;
+$c-white: #fff;
+$c-red: #ff1900;
+$c-green: #00a42e;
+$c-greylink: #888;
+$c-black: #000;
 
 body {
   margin: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 ul {
   padding-left: 0;
   list-style: none;
+}
+
+img {
+  align-self: center;
+  max-width: 100%;
 }
