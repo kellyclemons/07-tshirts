@@ -96,8 +96,8 @@ img {
 
 // name of tee and description
 .card-info {
-  text-align: center;
   color: $c-brand-primary;
+  text-align: center;
 }
 
 // name of tee only
@@ -117,9 +117,9 @@ img {
 // ************** BUTTONS **************
 //
 
-.card-options {
-
-}
+// .card-options {
+//
+// }
 
 // all of the buttons (same as above)
 .button-bar {
@@ -135,13 +135,14 @@ img {
   }
 
   &__button {
-    width: calc(100% / 5);
     flex-grow: 1;
+    width: calc(100% / 5);
+    height: 3rem;
     padding: 0.5rem 1rem;
+
     background: $c-white;
     color: $c-brand-primary;
     font-size: 1.5rem;
-    height: 3rem;
   }
 }
 
@@ -151,12 +152,12 @@ img {
   &__list {
     // display: none;
     position: absolute;
-    top: 0rem;
+    top: 0;
     left: 50%;
-    margin: 0;
     width: 3rem;
+    margin: 0;
     transform: translate(-50%, -100%);
-    border: 0.1rem solid $c-primary;
+    border: 0.1rem solid $c-brand-primary;
     background: $c-white;
 
 
@@ -164,6 +165,23 @@ img {
     > * + * {
       border-top: 0.2rem solid $c-brand-primary;
     }
+  }
+}
+
+.fa-square {
+  transform: translateY(0.4rem);
+}
+
+.dropdown__button {
+  // display: none;
+  // display: block;
+  height: 2rem;
+
+  :hover {
+    // transform: scale(2);
+    // transition: background 0.2s ease-in, color 0.2s ease-in;
+    display: block;
+    font-size: 3rem;
   }
 }
 
