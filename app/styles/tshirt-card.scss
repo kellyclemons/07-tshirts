@@ -1,0 +1,95 @@
+// **************T-SHIRT CARD**************
+//
+
+// whole page
+//
+
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 60rem;
+  margin: auto;
+}
+
+// also whole page but grid
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+// 1 tshirt grid item
+.grid__item {
+  flex-basis: calc(100% / 3 - 2rem);
+  margin: 1rem;
+  border: 0.3rem solid $c-brand-primary;
+}
+
+// shop card whole item 1/6
+.shop-card {
+  display: flex;
+  flex-direction: column;
+  color: $c-brand-primary;
+  // border: 0.3rem solid $c-brand-primary;
+  // text-align: center;
+  }
+
+// image of t-shirt
+.tshirt-pic {
+  padding: $m-gutter;
+}
+
+// name of tee and description
+.card-info {
+  padding: 0;
+  color: $c-brand-primary;
+  text-align: center;
+}
+
+// name of tee only
+.card-title {
+  // margin-bottom: 1rem;
+
+}
+
+// description of tee only
+.card-description {
+  // margin-top: 0;
+  font-size: 0.8rem;
+}
+
+
+
+// ************** BUTTONS **************
+//
+
+
+// all of the buttons (same as above)
+.button-bar {
+  display: flex;
+  min-height: 2.5rem;
+  border-top: 0.3rem solid $c-brand-primary;
+
+  > * {
+    border: 0;
+  }
+
+  > * + * {
+    border-left: 0.3rem solid $c-brand-primary;
+  }
+
+  &__button {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    width: calc(100% / 5);
+    // padding: 0.5rem 1rem;
+
+    height: 3rem;
+    background: $c-white;
+    color: $c-brand-primary;
+    font-size: 1rem;
+  }
+}

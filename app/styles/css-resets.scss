@@ -1,0 +1,44 @@
+$c-primary: #0047ff;
+$c-white: #fff;
+$c-red: #ff1900;
+// $c-green: #00a42e;
+$c-greylink: #888;
+$c-black: #000;
+// $c-pink: #ff008a;
+// $c-blue: #001aff;
+$c-darkblue: #2c5c9c;
+$c-greenblue: #00614f;
+$c-lightgreen: #88ffb8;
+$c-softgrey: #f6f6f6;
+// $c-yellow: #ffed00;
+$c-greyblue: #cdd5ff;
+$c-aqua: #00ffc9;
+$m-whitespace: #fff;
+
+$c-brand-primary: #3473b5;
+$c-brand-white: #fff;
+$c-pink: #e577aa;
+$c-blue: #72bbe9;
+$c-green: #7abe93;
+$c-yellow: #e5b178;
+
+$m-gutter: 0.5rem;
+
+// ************** CSS RESETS **************
+//
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  align-self: center;
+  max-width: 100%;
+
+}
